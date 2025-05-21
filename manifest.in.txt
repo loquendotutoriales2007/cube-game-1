@@ -1,0 +1,5 @@
+# MANIFEST.in
+include *.md              # Incluye el README
+include requirements.txt  # Incluye dependencias
+recursive-include assets *.png *.jpg *.wav *.ttf  # Archivos del juego
+recursive-include data *.json *.csv
